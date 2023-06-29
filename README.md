@@ -1,6 +1,6 @@
 # GenZ
 
-An instruction fintuned model of Xgen 7B
+An instruction finetuned model of Xgen 7B
 
 ## Setup
 

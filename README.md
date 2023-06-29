@@ -11,7 +11,7 @@ Install dependecies
 
 ## Tokenizer
 
-The current tokenizer available in huggingface has some issue with adding special tokens like pad_token which is required finetuning. A quick is fix for that is added in the tokenizer file here `utils/tokenizer_xgen.py`
+The current tokenizer available in huggingface has some [issues](https://github.com/salesforce/xgen/issues/6) with adding special tokens like pad_token which is required finetuning. A quick is fix for that is added in the tokenizer file here `utils/tokenizer_xgen.py`
 
 Example usage:
 ```python

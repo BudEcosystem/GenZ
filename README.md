@@ -1,6 +1,6 @@
 # GenZ
 
-An instruction finetuned model of Xgen 7B
+The most capable commercially usable Instruct Finetuned LLM yet with 8K input token length, latest information & better coding. 
 
 ## Setup
 

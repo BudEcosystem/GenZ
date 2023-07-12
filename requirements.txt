@@ -6,3 +6,4 @@ deepspeed
 accelerate
 peft
 gradio
+tiktoken

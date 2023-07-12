@@ -14,9 +14,7 @@ from utils.prompt import get_prompt
 def main(
     load_8bit: bool = False,
     base_model: str = "",
-    lora_weights: str = "",
-    server_name: str = "0.0.0.0",
-    share_gradio: bool = False,
+    lora_weights: str = ""
 ):
     device = "cuda"
 
@@ -100,7 +98,7 @@ def main(
             )
         ],
         title="GenZ",
-        description="An instruction fintuned model of Xgen 7B",
+        description="An instruction fintuned model",
     ).queue().launch(server_name="0.0.0.0", share=True)
 
 if __name__ == "__main__":

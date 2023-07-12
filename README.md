@@ -2,6 +2,8 @@
 
 The most capable commercially usable Instruct Finetuned LLM yet with 8K input token length, latest information & better coding. 
 
+Check the model in HuggingFace -> [Genz 7B](https://huggingface.co/budecosystem/genz-7b)
+
 ## Setup
 
 Install dependecies

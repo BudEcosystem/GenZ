@@ -9,22 +9,19 @@ Install dependecies
    pip install -r requirements.txt
    ```
 
-## Tokenizer
-
-The current tokenizer available in huggingface has some [issues](https://github.com/salesforce/xgen/issues/6) with adding special tokens like pad_token which is required finetuning. A quick is fix for that is added in the tokenizer file here `utils/tokenizer_xgen.py`
-
-Example usage:
-```python
-from utils.tokenizer_xgen import XgenTokenizer
-
-tokenizer = XgenTokenizer.from_pretrained('Salesforce/xgen-7b-8k-base', trust_remote_code=True)
-tokenizer.pad_token = '<|endoftext|>'
-tokenizer.eos_token = '<|endoftext|>'
-```
 
 ## Finetuning
 
-Coming soon
+```bash
+python finetune.py
+   --model_name Salesforce/xgen-7b-8k-base
+   --data_path dataset.json
+   --output_dir output
+   --trust_remote_code
+   --prompt_column instruction
+   --response_column output
+   --pad_token_id 50256
+```
 
 ## Generate
 
@@ -34,7 +31,7 @@ Example usage:
 
 ```bash
 python generate.py \
-    --base_model 'Salesforce/xgen-7b-8k-base'
+    --base_model 'budecosystem/genz-7b'
 ```
 
 ## Benchmark

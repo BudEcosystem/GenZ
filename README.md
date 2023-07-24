@@ -42,4 +42,5 @@ python generate.py \
 
 ## Benchmark
 
-Coming soon
+| Model Name | Vicuna Bench | MMLU | Human Eval | Hellaswag |
+| [Genz 13B](https://huggingface.co/budecosystem/genz-13b) | 86.2 | 53.62 | 17.68 | |

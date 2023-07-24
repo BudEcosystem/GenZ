@@ -1,12 +1,13 @@
-# GenZ
-
+<p align="center" width="100%">
+<a ><img src="https://github.com/BudEcosystem/GenZ/blob/main/assets/genz.png" alt="WizardLM" style="width: 20%; min-width: 300px; display: block; margin: auto;"></a>
+</p>
 The most capable commercially usable Instruct Finetuned LLM yet with 8K input token length, latest information & better coding. 
 
 [Genz 7B](https://huggingface.co/budecosystem/genz-7b) | [Genz 13B](https://huggingface.co/budecosystem/genz-13b)
 
 ## Announcement
 
-[20 Jul 2023] We have released Genz13B model. Download the model from huggingface([Genz13B](https://huggingface.co/budecosystem/genz-13b)). 
+- [20 Jul 2023] We have released Genz13B model. Download the model from huggingface([Genz13B](https://huggingface.co/budecosystem/genz-13b)). 
 
 ## Setup
 

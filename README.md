@@ -11,7 +11,7 @@ The most capable commercially usable Instruct Finetuned LLM yet with 8K input to
 
 ## Setup
 
-Install dependecies
+Install dependencies
    ```bash
    pip install -r requirements.txt
    ```
@@ -32,7 +32,7 @@ python finetune.py
 
 ## Generate
 
-This file allows to do inference from the huggingace model hub and runs a Gradio interface for inference on a specified input. This is an example code which can be modified as needed.
+This file allows to do inference from the huggingface model hub and runs a Gradio interface for inference on a specified input. This is an example code that can be modified as needed.
 
 Example usage:
 

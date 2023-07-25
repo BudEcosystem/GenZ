@@ -43,9 +43,9 @@ python generate.py \
 
 ## Benchmark
 
-| Model Name | Vicuna Bench | MMLU | Human Eval | Hellaswag |
-|-------------|-------------|------|------------|-----------|
-| [Genz 13B](https://huggingface.co/budecosystem/genz-13b) | 86.2 | 53.62 | 17.68 | |
+| Model Name | Vicuna Bench | MMLU | Human Eval | Hellaswag | BBH |
+|-------------|-------------|------|------------|-----------|-----|
+| [Genz 13B](https://huggingface.co/budecosystem/genz-13b) | 86.2 | 53.62 | 17.68 | 77.38 | 37.76 |
 
 &nbsp;<br>
 

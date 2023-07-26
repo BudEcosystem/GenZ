@@ -3,12 +3,12 @@
 </p>
 The most capable commercially usable Instruct Finetuned LLM yet with 8K input token length, latest information & better coding. 
 
-[Genz 7B](https://huggingface.co/budecosystem/genz-7b) | [Genz 13B](https://huggingface.co/budecosystem/genz-13b) | [Genz 13 v2](https://huggingface.co/budecosystem/genz-13b-v2)
+[Genz 7B](https://huggingface.co/budecosystem/genz-7b) | [Genz 13B](https://huggingface.co/budecosystem/genz-13b) | [Genz 13B v2](https://huggingface.co/budecosystem/genz-13b-v2)
 
 ## Announcement
 
 - [26 Jul 2023] We have released Genz 13B v2 model with better eval than v1. Download the model from huggingface ( [Genz 13B v2](https://huggingface.co/budecosystem/genz-13b-v2) )
-- [20 Jul 2023] We have released Genz13B model. Download the model from huggingface([Genz13B](https://huggingface.co/budecosystem/genz-13b)).
+- [20 Jul 2023] We have released Genz 13B model. Download the model from huggingface([Genz 13B](https://huggingface.co/budecosystem/genz-13b)).
 
 
 ## Setup

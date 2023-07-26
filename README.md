@@ -7,7 +7,7 @@ The most capable commercially usable Instruct Finetuned LLM yet with 8K input to
 
 ## Announcement
 
-- [26 Jul 2023] We have released Genz 13B v2 model with better eval than v1. Download the model from huggingface ( [Genz 13B v2](https://huggingface.co/budecosystem/genz-13b-v2) )
+- [26 Jul 2023] We have released Genz 13B v2 model with better eval than v1. Download the model from huggingface( [Genz 13B v2](https://huggingface.co/budecosystem/genz-13b-v2) )
 - [20 Jul 2023] We have released Genz 13B model. Download the model from huggingface([Genz 13B](https://huggingface.co/budecosystem/genz-13b)).
 
 
@@ -48,7 +48,7 @@ python generate.py \
 | Model Name | MT Bench | Vicuna Bench | MMLU | Human Eval | Hellaswag | BBH |
 |------------|----------|--------------|------|------------|-----------|-----|
 | [Genz 13B](https://huggingface.co/budecosystem/genz-13b) | 6.12 | 86.1 | 53.62 | 17.68 | 77.38 | 37.76 |
-| [Genx 13B v2](https://huggingface.co/budecosystem/genz-13b-v2) | 6.79 | 87.2 | 53.68 | 21.95 | | |
+| [Genz 13B v2](https://huggingface.co/budecosystem/genz-13b-v2) | 6.79 | 87.2 | 53.68 | 21.95 | | |
 
 &nbsp;<br>
 

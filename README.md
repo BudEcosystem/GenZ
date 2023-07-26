@@ -3,11 +3,13 @@
 </p>
 The most capable commercially usable Instruct Finetuned LLM yet with 8K input token length, latest information & better coding. 
 
-[Genz 7B](https://huggingface.co/budecosystem/genz-7b) | [Genz 13B](https://huggingface.co/budecosystem/genz-13b)
+[Genz 7B](https://huggingface.co/budecosystem/genz-7b) | [Genz 13B](https://huggingface.co/budecosystem/genz-13b) | [Genz 13 v2](https://huggingface.co/budecosystem/genz-13b-v2)
 
 ## Announcement
 
-- [20 Jul 2023] We have released Genz13B model. Download the model from huggingface([Genz13B](https://huggingface.co/budecosystem/genz-13b)). 
+- [26 Jul 2023] We have released Genz 13B v2 model with better eval than v1. Download the model from huggingface ( [Genz 13B v2](https://huggingface.co/budecosystem/genz-13b-v2) )
+- [20 Jul 2023] We have released Genz13B model. Download the model from huggingface([Genz13B](https://huggingface.co/budecosystem/genz-13b)).
+
 
 ## Setup
 
@@ -38,14 +40,15 @@ Example usage:
 
 ```bash
 python generate.py \
-    --base_model 'budecosystem/genz-7b'
+    --base_model 'budecosystem/genz-13b-v2'
 ```
 
 ## Benchmark
 
-| Model Name | Vicuna Bench | MMLU | Human Eval | Hellaswag | BBH |
+| Model Name | MT Bench | Vicuna Bench | MMLU | Human Eval | Hellaswag | BBH |
 |-------------|-------------|------|------------|-----------|-----|
-| [Genz 13B](https://huggingface.co/budecosystem/genz-13b) | 86.2 | 53.62 | 17.68 | 77.38 | 37.76 |
+| [Genz 13B](https://huggingface.co/budecosystem/genz-13b) | 6.12 | 86.1 | 53.62 | 17.68 | 77.38 | 37.76 |
+| [Genx 13B v2](https://huggingface.co/budecosystem/genz-13b-v2) | 6.79 | 87.2 | 53.68 | 21.95 | | |
 
 &nbsp;<br>
 

@@ -3,7 +3,7 @@
 <div align="center"><h1 align="center">~ GenZ ~</h1><img src="https://github.com/BudEcosystem/GenZ/blob/main/assets/genz-logo.png" width=150></div>
 
 
-<p align="center"><i>Democratizing access to fine-tuned LLMs for the open-source community.<br>Let's advance AI, together. </i></p>
+<p align="center"><i>Democratizing access to LLMs for the open-source community.<br>Let's advance AI, together. </i></p>
 
 ---
 
@@ -11,6 +11,8 @@
 ## Introduction 🎉
 
 Welcome to **GenZ**, an advanced Large Language Model (LLM) fine-tuned on the foundation of Meta's open-source Llama V2 13B parameter model. At Bud Ecosystem, we believe in the power of open-source collaboration to drive the advancement of technology at an accelerated pace. Our vision is to democratize access to fine-tuned LLMs, and to that end, we will be releasing a series of models across different parameter counts (7B, 13B, and 70B) and quantizations (32-bit and 4-bit) for the open-source community to use, enhance, and build upon. 
+
+<p align="center"><img src="https://github.com/BudEcosystem/GenZ/blob/main/assets/MTBench_CompareChart_28July2023.png" width="500"></p>
 
 The smaller quantization version of our models makes them more accessible, enabling their use even on personal computers. This opens up a world of possibilities for developers, researchers, and enthusiasts to experiment with these models and contribute to the collective advancement of language model technology. 
 
@@ -22,11 +24,17 @@ And this isn't the end. It's just the beginning of a journey towards creating mo
 
 <h2 align="center">Milestone Releases ️🏁</h2>
 
+**[27 July 2023]**
+[_GenZ-13B V2 (ggml)_](https://huggingface.co/budecosystem/genz-13b-v2-ggml) : Announcing our GenZ-13B v2 with ggml. This variant of GenZ can run inferencing using only CPU and without the need of GPU. Download the model from [HuggingFace](https://huggingface.co/budecosystem/genz-13b-v2-ggml).
+
+**[27 July 2023]**
+[_GenZ-13B V2 (4-bit)_](https://huggingface.co/budecosystem/genz-13b-v2-4bit) : Announcing our GenZ-13B v2 with 4-bit quantisation. Enabling inferencing with much lesser GPU memory than the 32-bit variant. Download the model from [HuggingFace](https://huggingface.co/budecosystem/genz-13b-v2-4bit).
+
 **[26 July 2023]**
-_GenZ-13B V2_ : We're excited to announce the release of our Genz 13B v2 model, a step forward with improved evaluation results compared to v1. Experience the advancements by downloading the model from [HuggingFace](https://huggingface.co/budecosystem/genz-13b-v2).
+[_GenZ-13B V2_](https://huggingface.co/budecosystem/genz-13b-v2) : We're excited to announce the release of our Genz 13B v2 model, a step forward with improved evaluation results compared to v1. Experience the advancements by downloading the model from [HuggingFace](https://huggingface.co/budecosystem/genz-13b-v2).
 
 **[20 July 2023]**
-_GenZ-13B_ : We marked an important milestone with the release of the Genz 13B model. The journey began here, and you can partake in it by downloading the model from [Hugging Face](https://huggingface.co/budecosystem/genz-13b).
+[_GenZ-13B_](https://huggingface.co/budecosystem/genz-13b) : We marked an important milestone with the release of the Genz 13B model. The journey began here, and you can partake in it by downloading the model from [Hugging Face](https://huggingface.co/budecosystem/genz-13b).
 
 ---
 
@@ -161,7 +169,7 @@ python finetune.py \
 
 ---
 
-<h2 align="center">Bonus: Colab Notebooks 📚</h2>
+<h2 align="center">Bonus: Colab Notebooks 📚 <b><i>(WIP)</i></b></h2>
 
 
 Looking for an even simpler way to get started with GenZ? We've got you covered. We've prepared a pair of detailed Colab notebooks - one for Inference and one for Fine-tuning. These notebooks come pre-filled with all the information and code you'll need. All you'll have to do is run them!
@@ -194,7 +202,7 @@ Here's a quick overview of everything you need to know about GenZ 13B.
 
 - Developed by: Bud Ecosystem
 - Base pretrained model type: Llama V2 13B
-- Model Architecture: GenZ 13B, fine-tuned from Llama V2 13B, is an auto-regressive language model that employs an optimized transformer architecture. The fine-tuning process for GenZ 13B leveraged Supervised Fine-Tuning (SFT)
+- Model Architecture: GenZ 13B, fine-tuned on Llama V2 13B, is an auto-regressive language model that employs an optimized transformer architecture. The fine-tuning process for GenZ 13B leveraged Supervised Fine-Tuning (SFT)
 - License: The model is available for commercial use under a custom commercial license. For more information, please visit: [Meta AI Model and Library Downloads](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)
 
 ---
@@ -269,7 +277,7 @@ Evaluating our model is a key part of our fine-tuning process. It helps us under
 
 <h3 align="center">Benchmark Comparison</h3>
 
-We've compared GenZ V1 with V2 to understand the improvements our fine-tuning has achieved. You can view the benchmark comparison on our [Github page](https://github.com/BudEcosystem/GenZ#benchmark).
+We've compared GenZ V1 with V2 to understand the improvements our fine-tuning has achieved.
 
 | Model Name | MT Bench | Vicuna Bench | MMLU | Human Eval | Hellaswag | BBH |
 |:----------:|:--------:|:------------:|:----:|:----------:|:---------:|:----:|

@@ -24,6 +24,9 @@ And this isn't the end. It's just the beginning of a journey towards creating mo
 
 <h2 align="center">Milestone Releases ️🏁</h2>
 
+**[21 August 2023]**
+[_GenZ-70B_](https://huggingface.co/budecosystem/genz-70b) : We marked an important milestone with the release of the Genz 70B model. The journey began here, and you can partake in it by downloading the model from [Hugging Face](https://huggingface.co/budecosystem/genz-70b).
+
 **[4 August 2023]**
 [_GenZ Vision Assistant 7B_](https://huggingface.co/budecosystem/genz-mm-vt-7b) : Announcing our multimodal Genz Vision Assistant 7B. This is a multimodal AI model fine-tuned to understand text and visual inputs to provide contextually relevant responses. Download the model from [HuggingFace](https://huggingface.co/budecosystem/genz-mm-vt-7b).
 

@@ -285,11 +285,11 @@ Evaluating our model is a key part of our fine-tuning process. It helps us under
 
 We've compared GenZ V1 with V2 to understand the improvements our fine-tuning has achieved.
 
-| Model Name | MT Bench | Vicuna Bench | MMLU | Human Eval | Hellaswag | BBH |
-|:----------:|:--------:|:------------:|:----:|:----------:|:---------:|:----:|
-| Genz 13B   | 6.12     | 86.1         | 53.62| 17.68      | 77.38     | 37.76|
-| Genz 13B v2| 6.79     | 87.2         | 53.68| 21.95      | 77.48     | 38.1 |
-| Genz 70B   | 7.34     | -            | 70.32| -          |           |      |
+| Model Name | MT Bench | MMLU | Human Eval | Hellaswag | BBH |
+|:----------:|:--------:|:----:|:----------:|:---------:|:----:|
+| Genz 13B   | 6.12     | 53.62| 17.68      | 77.38     | 37.76|
+| Genz 13B v2| 6.79     | 53.68| 21.95      | 77.48     | 38.1 |
+| Genz 70B   | 7.34     | 70.32| 37.8       |           | 54.69|
 
 <h3 align="center">MT Bench Score</h3>
 

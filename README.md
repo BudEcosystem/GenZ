@@ -12,7 +12,7 @@
 
 Welcome to **GenZ**, an advanced Large Language Model (LLM) fine-tuned on the foundation of Meta's open-source Llama V2 13B parameter model. At Bud Ecosystem, we believe in the power of open-source collaboration to drive the advancement of technology at an accelerated pace. Our vision is to democratize access to fine-tuned LLMs, and to that end, we will be releasing a series of models across different parameter counts (7B, 13B, and 70B) and quantizations (32-bit and 4-bit) for the open-source community to use, enhance, and build upon. 
 
-<p align="center"><img src="https://github.com/BudEcosystem/GenZ/blob/main/assets/MTBench_CompareChart_28July2023.png" width="500"></p>
+<p align="center"><img src="https://github.com/BudEcosystem/GenZ/blob/main/assets/mt_bench_compare.png" width="500"></p>
 
 The smaller quantization version of our models makes them more accessible, enabling their use even on personal computers. This opens up a world of possibilities for developers, researchers, and enthusiasts to experiment with these models and contribute to the collective advancement of language model technology. 
 
